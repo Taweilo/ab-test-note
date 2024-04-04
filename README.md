@@ -1,6 +1,6 @@
 # A/B test Note
 
-## A/B test successful mindset
+#### A/B test successful mindset
 1. Hypothesis: what are we trying to test - If we change X, it will impact Y / If we remove likes from photos on Instagram, then maybe more people will post photos.
 2. Methodology: discuss how to run the experiment. two cohorts: control group- people who see like on photos/test group - people who don't see like on photos.
 3. Metrics: which metrics we're measuring? track the number of photos being posted. Other metrics: bounce rate of sharing a photo, or CTR of other buttons on the app.
@@ -9,7 +9,7 @@
 
 source: https://www.youtube.com/watch?v=jEpwNaHjD68
 
-## 1. A/B test basic
+## Chapter 1
 - A/B intro
   - an experiment designed to test which version is better
   - based on metric(s): signup rate, average sales per user, etc
@@ -55,8 +55,18 @@ source: https://www.youtube.com/watch?v=jEpwNaHjD68
   - Non-gameable
   
 ## Chapter 2
-- Formulating A/B testing hypotheses
-- Error rates, power, effect size
+- Defining hypotheses: A hypothesis is a statement explaining an event/a starting point for further investigation/an idea we want to test
+- Hypothesis format:
+  - Based on X, we believe that if we do Y
+  - Then Z will happen
+  - As measured by metric(s) M
+  - e.g. Based on user experience research, we believe that if we update our checkout page design, then the percentage of purchasing customers will increase as measured by the purchase rate.
+- Distribution parameters:
+  - d follows a normal distribution <br>
+    d = $p_{B}$ - $p_{A}$ <br>
+    H0: d = $p_{B}$ - $p_{A}$ = 0 <br>
+    HA: d = $p_{B}$ - $p_{A}$ ≠ 0 <br>
+  - If observed difference 'd' is unlikely: reject the Null hypothesis
 - Power analysis: sample size estimation
 - Multiple comparisons corrections
   
