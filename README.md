@@ -67,9 +67,31 @@ source: https://www.youtube.com/watch?v=jEpwNaHjD68
     H0: d = $p_{B}$ - $p_{A}$ = 0 <br>
     HA: d = $p_{B}$ - $p_{A}$ ≠ 0 <br>
   - If observed difference 'd' is unlikely: reject the Null hypothesis
+- Terminalogy 
+  - Power (1- β): Commonly set at 80%; β = Type II error = False negative
+  - Minimum Detectable Effect (MDE): Smallest difference we care to capture
+  - Significance level α: Commonly set at 5%; α = Type I error = False positive
+  - P-value: The p-value in statistics is a measure of the probability of obtaining results as extreme as the observed results of a statistical hypothesis test, assuming that the null hypothesis is true. In simpler terms, it tells us how likely it is to observe the data if the null hypothesis is true; If p-value < α, Reject Null hypothesis; If p-value > α, Fail to reject Null hypothesis
 - Power analysis: sample size estimation
 - Multiple comparisons corrections
   
+  | Single Comparison                      | Multiple Comparisons                            |
+|----------------------------------------|-------------------------------------------------|
+| Control (A) versus Treatment (B)       | Multiple variants (A/B/n tests)                 |
+| One metric                             | Multiple metrics                                |
+| No subcategories                       | Granular categories                             |
+- Correction methods
+   - Bonferroni Correction: <br>
+     $\text{Adjusted significance level α*} = \frac{\alpha}{m} \$<br>
+     
+     α = Desired overall significance level (e.g., 0.05 for 5% significance)<br>
+     m = Number of comparisons<br>
+   - Sidak correction: <br>
+   
+   $\text{Adjusted significance level}\$ $α_{S}$ = $1 - (1 - \alpha)^{\frac{1}{m}} $
+         
+     α = Desired overall significance level (e.g., 0.05 for 5% significance)<br>
+     m = Number of comparisons<br>
 ## Chapter 3
 - Data cleaning and EDA
 - Sanity checks for validation
