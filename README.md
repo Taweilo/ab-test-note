@@ -6,7 +6,8 @@
 3. Metrics: which metrics we're measuring? track the number of photos being posted. Other metrics: bounce rate of sharing a photo, or CTR of other buttons on the app.
 4. Tradeoffs: potential pitfalls to the proposed features. People's perception of hiding the like button. Loneliness is hard to quantify and missed in the data-driven mindset.
 5. Impact: how this info can impact the team.    
-https://www.youtube.com/watch?v=jEpwNaHjD68
+
+source: https://www.youtube.com/watch?v=jEpwNaHjD68
 
 ## Chapter 1
 - A/B testing steps and use-cases
